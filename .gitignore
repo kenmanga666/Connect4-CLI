@@ -1,0 +1,3 @@
+# Ignorer les fichiers générés par le Makefile
+/build/
+*.class

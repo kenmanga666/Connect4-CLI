@@ -1,0 +1,48 @@
+# Puissance 4 (Connect 4) Game
+
+Bienvenue dans le jeu Puissance 4 ! Ce jeu a été développé en Java et
+vous permet de jouer au célèbre jeu de société Puissance 4 avec deux joueurs.
+
+## Comment Jouer
+
+Le Puissance 4 est un jeu de stratégie pour deux joueurs. Les joueurs alternent tour à tour en plaçant un jeton de leur couleur dans l'une des colonnes de la grille. Le premier joueur qui réussit à aligner quatre jetons de sa couleur horizontalement, verticalement ou en diagonale remporte la partie.
+
+## Instructions pour Exécuter le Jeu
+
+1. Assurez-vous d'avoir Java installé sur votre système.
+2. Clonez le dépôt ou téléchargez les fichiers source.
+3. Compilez les fichiers source à l'aide du Makefile avec la commande : `make build`.
+4. Exécutez le jeu via le Makefile avec la commande : `make run`.
+- Vous pouvez compiler les étapes 3. et 4. en une seule étape en utilisant
+  seulement la commande `make` cela fera un build des fichiers et fera un run automatiquement.
+
+## Personnalisation des Joueurs
+
+Lorsque vous lancez le jeu, vous serez invité à personnaliser les informations des deux joueurs, y compris le pseudonyme, la couleur et le jeton.
+
+## Commandes du Jeu
+
+- Les joueurs sélectionnent une colonne en entrant un nombre entre 1 et 7.
+- Les informations sur l'état du jeu et les tours des joueurs sont affichées à la console.
+
+## Fin de la Partie
+
+À la fin de chaque partie, le jeu vous demandera si vous souhaitez jouer à nouveau. Entrez 'y' pour rejouer et 'n' pour quitter le jeu.
+
+## Structure du Code
+
+Le code source est organisé en plusieurs classes :
+- `Puissance4` : La classe principale contenant la méthode `main` et la logique du jeu.
+- `Grid` : Gestion de la grille de jeu, affichage et méthodes associées.
+- `Player` : Représentation d'un joueur avec des méthodes pour la création.
+- `Color` : Gestion des couleurs de texte dans la console.
+- `winCondition` : Méthodes pour vérifier les conditions de victoire et l'état de la grille.
+- `Clear` : Nettoyage de la console.
+
+## Auteurs
+
+Vallée Kenny
+Le Devehat Tyfenn
+---
+
+Amusez-vous bien en jouant à Puissance 4 ! Si vous avez des questions ou des suggestions, n'hésitez pas à les partager.
